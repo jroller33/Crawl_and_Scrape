@@ -9,6 +9,16 @@
 
 ## Usage
 
+clone the repo, create a venv, and install scrapy:
+
+`pip install Scrapy`
+
+in `scraper/` directory, run:
+
+`scrapy crawl ecom_spider`
+
+
+## Log files:
 
 [IMDB Crawl Log](./files/imdb.log)
 

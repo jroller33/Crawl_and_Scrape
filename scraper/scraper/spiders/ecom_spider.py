@@ -1,13 +1,13 @@
 import scrapy
 
 
-class MyspiderSpider(scrapy.Spider):
-    name = "myspider"
-    allowed_domains = ["mydomain.com"]
-    start_urls = ["http://mydomain.com/"]
+# class MyspiderSpider(scrapy.Spider):
+#     name = "myspider"
+#     allowed_domains = ["mydomain.com"]
+#     start_urls = ["http://mydomain.com/"]
 
-    def parse(self, response):
-        pass
+#     def parse(self, response):
+#         pass
 
 from scraper.items import Product
 
