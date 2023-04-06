@@ -9,8 +9,8 @@
 
 ## Usage
 
-### Sample Crawler Log for IMDB:
-[sample_log](./sample_log_files/imdb.log)
+
+[IMDB Crawl Log](./files/imdb.log)
 
 
 
