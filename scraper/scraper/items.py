@@ -12,7 +12,7 @@ class ScraperItem(scrapy.Item):
     pass
 
 
-class Product(scrapy.Item):
+class Product(scrapy.Item):         # Product class 
     product_url = scrapy.Field()
     price = scrapy.Field()
     title = scrapy.Field()

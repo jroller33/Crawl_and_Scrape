@@ -19,6 +19,12 @@ NEWSPIDER_MODULE = "scraper.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
+
+ITEM_PIPELINES = {
+	'product_scraper.pipelines.PriceValidatorPipeline': 100
+}
+
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
