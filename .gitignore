@@ -1,4 +1,8 @@
-# this is the standard Python .gitignore from 'https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+
+
+crawler/
+
+
 .vscode
 
 # Byte-compiled / optimized / DLL files
