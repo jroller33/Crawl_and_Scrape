@@ -9,8 +9,8 @@ from pathlib import Path
 
 import scrapy
 
-class QuotesSpider(scrapy.Spider):
-    name = 'quotes'             # identifies the spider, must be unique within a project
+class QuotesSpider1(scrapy.Spider):
+    name = 'quotes1'             # identifies the spider, must be unique within a project
     
     def start_requests(self):   # must return iterable of Requests (list of req's or make a function)
         urls = [                            # starting list of URLs for the spider
