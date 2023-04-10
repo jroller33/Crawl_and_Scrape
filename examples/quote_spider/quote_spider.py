@@ -1,7 +1,7 @@
 # https://docs.scrapy.org/en/latest/intro/tutorial.html
 
 # to run this spider, open terminal INSIDE the `quote_spider/` folder, then run `scrapy runspider quotes_spider.py -o quotes.jsonl`
-# `quotes.jsonl` in this folder is the log generated from running the old quote spider.
+# `quotes.jsonl` in this folder is the log generated from running the spider.
 
 # you can also run the spider from the top-level of the directory, using `scrapy crawl quotes`
 
